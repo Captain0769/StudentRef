@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Hub</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+                <span>StudentRef</span>
+            </div>
+            <nav class="main-nav">
+                <a href="#">Categories</a>
+                <a href="#">Top Cheatsheets</a>
+                <a href="#">About</a>
+                <a href="https://github.com/your-repo" target="_blank"><i class="fab fa-github"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-content">
+            <h1>Find Your <span class="accent">Cheatsheet</span> Fast</h1>
+            <p>Quick, organized, and always accessible references for students and developers.</p>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for cheatsheet...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="categories" class="categories-section">
+            <h2>Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card"><i class="fas fa-code"></i> Programming</div>
+                <div class="category-card"><i class="fas fa-calculator"></i> Math</div>
+                <div class="category-card"><i class="fas fa-flask"></i> Science</div>
+                <div class="category-card"><i class="fas fa-language"></i> Languages</div>
+                <div class="category-card"><i class="fas fa-database"></i> Databases</div>
+                <div class="category-card"><i class="fas fa-terminal"></i> CLI Tools</div>
+            </div>
+        </section>
+
+        <section id="top" class="top-cheatsheets-section">
+            <h2>Top Cheatsheets</h2>
+            <div class="cheatsheets-grid">
+                <div class="cheatsheet-card">
+                    <h3><i class="fab fa-python"></i> Python</h3>
+                    <p>Essential syntax, tips, and tricks for Python programming.</p>
+                    <a href="#" class="view-link">View Cheatsheet</a>
+                </div>
+                <div class="cheatsheet-card">
+                    <h3><i class="fab fa-js-square"></i> JavaScript</h3>
+                    <p>Quick reference for modern JavaScript features and patterns.</p>
+                    <a href="#" class="view-link">View Cheatsheet</a>
+                </div>
+                <div class="cheatsheet-card">
+                    <h3><i class="fas fa-terminal"></i> Bash</h3>
+                    <p>Handy Bash commands and scripting essentials.</p>
+                    <a href="#" class="view-link">View Cheatsheet</a>
+                </div>
+                <div class="cheatsheet-card">
+                    <h3><i class="fas fa-database"></i> SQL</h3>
+                    <p>Common SQL queries and database tips.</p>
+                    <a href="#" class="view-link">View Cheatsheet</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" id="about">
+        <div class="container footer-content">
+            <p>Made with <span class="accent">♥</span> for students & developers. &copy; 2024 StudentRef</p>
+            <div class="footer-links">
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="https://github.com/your-repo" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
